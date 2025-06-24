@@ -1,0 +1,24 @@
+
+
+School Project:
+-------------------------
+1. Login screen 
+2, Home Screen.
+3. Student Registration Screen
+4. Student List
+5. Student Edit screen   
+
+----------------------
+		
+		Tech stacks:
+		---------------
+		1. Rect.js - Html, SCSS, TypeScript. Understanding React Library 
+		2. Redux - State management 
+		
+		--------------------------------
+		Tools :
+		1. Visual Studio Code
+		2. Node.js 
+		3. Rect cli
+
+
