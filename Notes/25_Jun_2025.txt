@@ -1,0 +1,26 @@
+
+
+Node.js 
+--------------------------------
+1. Dev can work on both front end and backend.
+
+
+Javascript -> Browser (Chrome, Mossila, Opera, Firefox etc) client side
+ name.js -> 
+name.js -> Chromium engine v1, v2 (Debug and run)  -> Browser window (Display)
+
+------------------------------------------
+Browser -> chromium -> Node.js
+------------------------------------------
+comands -> 
+
+Javascript packages 
+
+-> npm -> node package manager
+
+-> node -v 
+-> npm -v 
+
+
+
+
