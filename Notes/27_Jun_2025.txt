@@ -1,0 +1,16 @@
+Git: 
+1. Version control 
+    Dev 1, Project(sktn) -> commit-> commit id(hdjfhw38) v1
+    Decv 1, new html -> commit-> new commit id (872jwhed) v2
+2. Branch :
+    git checkout  -b "branchname"
+    git branch 
+    git add 
+    git commit -m "message"
+    git fetch 
+    git pull origin main 
+    git pull 
+    git push 
+    git merge 
+    git init 
+
