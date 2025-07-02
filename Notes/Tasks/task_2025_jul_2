@@ -1,0 +1,15 @@
+Add footer. 
+
+1. Create a new branch called nayana/footer from main branch main.
+    -> Ans: 
+2. Create a new .js file called Footer.js inside src folder  // this file used to create a react component
+3. Create a new .css file called Footer.css inside src folder 
+4. Create a function called Footer inside Footer.js file just take reference from App.js file
+5. Imort Footer.css file inside Footer.js file 
+6. Add footer html code inside Footer.js file // just use google it or use chat gpt for this
+7. Add footer css code inside Footer.css file // just use google it or use chat gpt for this
+8. save all the files and Run the application and see the output window in browser
+9. See the changes that you made for footer and it is reflecting in browser.
+
+
+
