@@ -1,15 +1,85 @@
 Add footer. 
 
 1. Create a new branch called nayana/footer from main branch main.
-    -> Ans: 
+    ---> Ans: * Before creating new branch first we have to switch in to main brabch <git checkout main>this command get us exsisting branch (nayana/ navigationbar) to main branch
+              * next to create new branch <git checkout -b nayana/footer>this command get us new branch called nayana/footer
+    
 2. Create a new .js file called Footer.js inside src folder  // this file used to create a react component
-3. Create a new .css file called Footer.css inside src folder 
-4. Create a function called Footer inside Footer.js file just take reference from App.js file
-5. Imort Footer.css file inside Footer.js file 
-6. Add footer html code inside Footer.js file // just use google it or use chat gpt for this
-7. Add footer css code inside Footer.css file // just use google it or use chat gpt for this
-8. save all the files and Run the application and see the output window in browser
-9. See the changes that you made for footer and it is reflecting in browser.
+    ---> Ans: inside the src folder we have to create new file called --Footer.js--firstletter always should be in capital letter that seems to be a component <right click on src folder--new file--Footer.js>
 
+3. Create a new .css file called Footer.css inside src folder 
+    ---> Ans: inside the src folder we have to create new file called --Footer.css--firstletter always should be in      capital letter that seems to be a component <right click on src folder--new file--Footer.css>
+
+
+4. Create a function called Footer inside Footer.js file just take reference from App.js file
+    ---> Ans: inside the Footer.js file we have to write the function like
+    <function Footer()>
+
+5. Imort Footer.css file inside Footer.js file 
+    ---> Ans: inside the Footer.js file we have to import library called
+    <import './Footer.css';>
+              inside the App.js file we have to import library called
+    <import Footer from './footer.js';>
+
+    App.js file
+
+import logo from './logo.svg';
+import './App.css';
+import Footer from './Footer';
+
+function App() {
+  return (
+    <div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+   </ul>
+   <Footer />
+    </div>
+  );
+}
+ 
+ 
+ 6. Add footer html code inside Footer.js file // just use google it or use chat gpt for this
+    ---> Ans: inside Footer.js file 
+ Footer.js
+ 
+import logo from './logo.svg';
+import './Footer.css';
+import  Home from './home.js';
+import React from 'react';
+
+function Footer() {
+  return (
+    <div>
+        <footer className="footer">
+        <p>© 2025 Your Company. All rights reserved.</p>
+        </footer>
+     
+    </div>
+  );
+}
+
+export default Footer;
+
+
+7. Add footer css code inside Footer.css file // just use google it or use chat gpt for this
+    ---> Ans: inside Footer.css file
+   <  .footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}>
+8. save all the files and Run the application and see the output window in browser
+---> Ans: saved all files (CTRL+S)and run in command prompt <npm start>
+
+9. See the changes that you made for footer and it is reflecting in browser.
+---> Ans: refresh page once output is reflected in browser <http://localhost:3000/>
 
 
