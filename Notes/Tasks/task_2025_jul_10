@@ -13,3 +13,21 @@ Pages :
     4. Teachers 
     5. Staffs 
 
+    -------------------------------
+    1. Pages folder  
+        -> create new branch from main branch. nayana/refactor 
+        -> Remove App from Component folder , Footer , Header components from src and make sure Header and Footer should be inside Component folder. 
+        -> run and check application is working or not. if it is running then 
+        -> commit working code and push it to nayana/refactor branch and raise a pull request. and merge it to main branch.
+        -> switch to main branch in your local take pull from main branch. "git pull origin main" then 
+        -> run the application and check it is working or not and verify you changes made on folder
+
+
+        -> if all good then create new branch from main branch "nayana/home"
+        -> Create homepage component. 
+        -> move header and footer component into homepage from App.js file 
+        -> Call Homepage component inside App component. 
+        -> Create a slidingComponent inside Components, 
+        -> Call slidindComponent inside homePage and inbetwenn header and footer. add some dummy images 
+        that are having good resolution and make sure it should work for desktop/laptop 
+
