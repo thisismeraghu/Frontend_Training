@@ -6,8 +6,7 @@ import HomePage from './HomePage/HomePage.js';
 function App() {
   return (
     <div>
-      nayana
-    <HomePage/>
+      <HomePage/>
     </div>
   );
 }
